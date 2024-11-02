@@ -5,4 +5,9 @@ Created on Sat Nov  2 15:24:34 2024
 @author: SANDEEP
 """
 
-print('I am not hungry')
+nothungry = input('are you hungry?')
+
+if nothungry == 'yes':
+    print('go and eat samosa')
+else:
+    print('work hard')
